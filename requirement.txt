@@ -1,0 +1,17 @@
+# Frameworks
+fastapi==0.95.2
+uvicorn==0.22.0
+
+# Transformers and Hugging Face
+transformers==4.28.1
+torch==2.0.1  # PyTorch backend for transformers
+
+# Computer Vision
+pillow==9.4.0  # Required for image processing
+
+# Optical Character Recognition
+easyocr==1.6.2
+opencv-python-headless==4.7.0.72  # EasyOCR dependency
+
+# LLMOps and Utilities
+pandas==1.5.3  # For handling datasets if needed

@@ -1,0 +1,3 @@
+pip install -r requirements.txt
+uvicorn src.main:app --reload
+curl -X 'POST' 'http://127.0.0.1:8000/summarize/' -d '{"text": "Your text here"}' -H 'Content-Type: application/json'
